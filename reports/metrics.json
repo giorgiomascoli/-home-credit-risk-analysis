@@ -1,0 +1,70 @@
+{
+  "n_test": 61503,
+  "default_rate": 0.08072776937710356,
+  "mean_pd_raw": 0.43676003127011565,
+  "mean_pd_calibrated": 0.08011432356982548,
+  "auc_raw": 0.7255708812727331,
+  "auc_calibrated": 0.7255708812727331,
+  "average_precision_raw": 0.20631076299673873,
+  "average_precision_calibrated": 0.20631076299673873,
+  "brier_raw": 0.21033102861557385,
+  "brier_calibrated": 0.0695886343048739,
+  "brier_constant_baseline": 0.07421079663022367,
+  "log_loss_raw": 0.6106095219114885,
+  "log_loss_calibrated": 0.254913197628977,
+  "balanced_threshold_confusion_matrix": [
+    [
+      38234,
+      18304
+    ],
+    [
+      1702,
+      3263
+    ]
+  ],
+  "balanced_threshold_classification_report": {
+    "0": {
+      "precision": 0.9573818108974359,
+      "recall": 0.6762531394814107,
+      "f1-score": 0.7926280655928022,
+      "support": 56538
+    },
+    "1": {
+      "precision": 0.1512959614225437,
+      "recall": 0.6572004028197381,
+      "f1-score": 0.2459671340268355,
+      "support": 4965
+    },
+    "accuracy": 0.6747150545501845,
+    "macro avg": {
+      "precision": 0.5543388861599898,
+      "recall": 0.6667267711505744,
+      "f1-score": 0.5192975998098188,
+      "support": 61503
+    },
+    "weighted avg": {
+      "precision": 0.8923082983428803,
+      "recall": 0.6747150545501845,
+      "f1-score": 0.7484973479818723,
+      "support": 61503
+    }
+  },
+  "ead_proxy_total": 36765080145,
+  "lgd_assumed": 0.45,
+  "expected_loss_proxy_total": 1200182055.251873,
+  "expected_loss_to_ead": 0.0326446195824517,
+  "n_total": 307511,
+  "n_train": 184506,
+  "n_calibration": 61502,
+  "overall_default_rate": 0.08072881945686496,
+  "sample_missing_rates": {
+    "AMT_INCOME_TOTAL": 0,
+    "AMT_CREDIT": 0,
+    "AMT_ANNUITY": 0.000039022994299390916,
+    "EXT_SOURCE_1": 0.5638107254699832,
+    "EXT_SOURCE_2": 0.0021462646864665006,
+    "EXT_SOURCE_3": 0.19825307062186392
+  },
+  "method": "Decision-tree supervised WoE bins trained on train only; weighted logistic; held-out sigmoid calibration",
+  "split_random_seed": 42
+}
