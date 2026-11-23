@@ -1,0 +1,18 @@
+# Source and sensitive/customer-level data: do not commit
+application_train.csv
+application (1).csv
+APPLICATION.CSV
+data/
+*.xlsx
+*.xls
+# Aggregated outputs are preserved separately in reports/ and assets/
+results/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
